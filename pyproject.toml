@@ -1,0 +1,18 @@
+[project]
+name = "my-python-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jax>=0.5.3",
+    "keras>=3.9.2",
+    "matplotlib>=3.10.1",
+    "numpy==1.26.4",
+    "polars>=1.27.1",
+    "pyarrow>=19.0.1",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.18.1",
+]
