@@ -5,9 +5,6 @@ def count_category(categories: list[tuple[int, str]]) -> int:
             category_counts[category[1]] = 1
         else:
             category_counts[category[1]] += 1
-
-        print(category_counts)
-
     sorted_category_counts = sorted(category_counts.items(), key=lambda x: x[1], reverse=True)
     ans = [item[0] for item in sorted_category_counts][0]
     return ans
