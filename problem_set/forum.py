@@ -1,12 +1,10 @@
 def countWordContribution(input: str) -> list:
     lines = input.splitlines()
-    print(lines)
     word_counts: dict[str, int] = {}
     curr_username = ""
     for line in lines:
         if line != "":
             line = line.strip()
-            print(line)
             parts = line.split(" ")
             if parts[0].startswith("[") and parts[0].endswith("]"):
                 username = parts[0]
