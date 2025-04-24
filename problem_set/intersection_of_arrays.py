@@ -12,8 +12,9 @@ def intersection_of_arrays(l1: list[int], l2: list[int]) -> list[int]:
     return list(intersected)
 
 def main():
-    print(intersection_of_arrays([1, 2, 2, 1], [2, 2]))
+    print(intersection_of_arrays([1, 2, 2, 1], [2, 2, 2]))
     print(intersection_of_arrays([1, 2, 3, 3], [2, 3]))
+    print(intersection_of_arrays([4, 9, 5], [9, 4, 9, 8, 4, 5]))
 
 
 if __name__ == "__main__":
